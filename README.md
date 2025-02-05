@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Lua related to nil argument handling in a function. The `foo` function unexpectedly returns 0 when both `a` and `b` are nil.  This differs from intuitive expectations and can introduce hard-to-debug problems in larger codebases. The `bugSolution.lua` file provides a corrected version.
